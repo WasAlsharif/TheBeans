@@ -1,0 +1,42 @@
+body{
+margin: auto;
+
+}
+.sbody{
+background-image:url("Coffeeshop.png");
+height: 700px;
+text-align: center;
+}
+.t{
+	padding-top: 10%;
+	color: white;
+	font-family: Times New Roman;
+	font-size: 70px;
+	font-weight: bold;
+}
+.Deserts{
+text-align: center;
+
+
+}
+.Drinks{
+
+text-align: center;
+}
+.CoffeeBeans{
+	text-align: center;
+}
+.mySlides {
+	display:none;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+}
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0;
+}
+.w3-content{
+	padding-top: 10px;
+}

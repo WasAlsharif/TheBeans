@@ -1,5 +1,5 @@
 body{
-background-color:#121212;
+background-color:#222222;
 margin: auto;
 
 }
@@ -40,4 +40,77 @@ text-align: center;
 }
 .w3-content{
 	padding-top: 10px;
+}
+.Map{
+ margin-top: 150px;
+ border:2;
+ border-color:green;
+ float: right;
+ margin-right: 30px;
+ margin-top: 0px;
+}
+#site-footer{
+height: auto;
+background: #121212;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.info{
+color: white;
+
+}
+.Location{
+	text-align: right;
+	color: white;
+	padding-right: 125px;
+	padding-top: 50px;
 }

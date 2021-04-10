@@ -4,52 +4,23 @@
 <title>Drinks - The Beans</title>
 	<meta charset="utf-8">
   <link rel="stylesheet" type="text/CSS" href="TheBeans.CSS">
-
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+        <script>
+function bgChange() {
+  document.getElementById("Active").style.backgroundColor = "Gold";
 }
-
-.topnav {
-  overflow: hidden;
-  background-color: #792C35;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-</style>
-
+</script>
 </head>
-<body>
-<div class="h">
-	<a href="index.html" ><img src="logo.png" width="100px"></a>
-</div>
-<div class="h">
-	<label style="font-size: 35px;">The Beans Café</label>
-</div>
+<body class="pages-background">
+  <div class="sbody">
+    <div class="t"><a href="index.html" ><img src="logo.png" width="10%" style="margin-bottom: -50px;"></a><div> The Beans Café</div></div>
+  </div>
 <div class="topnav">
-  <a class="active" href="index.html">Home</a>
+  <a  id="Active" class="active" href="index.html">Home</a>
   <a href="sandwiches.html">Sandwiches</a>
   <a href="drinks.html">Drinks</a>
   <a href="desserts.html">Desserts</a>
   <a href="coffeebeans.html">Coffee Beans</a>
+  <a href="#" style="float:right;" onClick="bgChange()">Change Homepage Button Color</a>
 </div>
 <p class="t2">Drinks</p>
 <div class="row2">

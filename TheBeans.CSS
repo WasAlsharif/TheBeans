@@ -1,20 +1,20 @@
 body{
-  background-image:url("coffee.jpg");
+  background-image:url("Images/coffee.jpg");
   font-family: Arial, Helvetica, sans-serif;
   margin:auto;
 }
 .pages-background{
-	background-image:url("coffee.jpg");
+	background-image:url("Images/coffee.jpg");
 
 }
 
 .sbody{
-background-image:url("Coffeeshop.png");
+background-image:url("Images/Coffeeshop.png");
 height: 300px;
 text-align: center;
 }
 .dessert_header{
-background-image:url("dessert_header.png");
+background-image:url("Images/dessert_header.png");
 height: 600px;
 text-align: center;
 }
@@ -103,13 +103,11 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
 .container {
   border-radius: 5px;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 30%;
@@ -118,15 +116,12 @@ input[type=submit]:hover {
   padding-left: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 
 }
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
@@ -143,8 +138,6 @@ color: white;
 	padding-right: 300px;
 	margin-top: 20px;
 }
-
-/* Create four equal columns that floats next to each other */
 .column2 {
   float: left;
   border: solid 2px;
@@ -154,7 +147,7 @@ color: white;
   background-color:#BD7028;
   width: 250px;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
   margin-right: 30px;
   margin-left: 30px;
   margin-top: 35px;
